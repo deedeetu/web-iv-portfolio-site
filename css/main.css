@@ -66,9 +66,6 @@
 ----------------------------------------------------------------*/
 /*----------4.1 - FLoats----------*/
 /*----------4.2 - Images----------*/
-html {
-	background: url(../img/bg-main.jpg) center no-repeat fixed cover, url(../img/bg-bottom.png) left bottom fixed;
-}
 
 /*--------------------------------------------------------------
 5.0 - Utility:
