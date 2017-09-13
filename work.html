@@ -12,52 +12,65 @@
 <body>
 	<header>
 		<div class="wrapper">
-			<h1><img src="img/icon-logo.gif" alt="" height="150px"></h1>
+			<h1><img src="img/icon-logo.gif" alt="DeeDee Tu Logo" height="150px"></h1>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact Me</a></li>
-					<li><a href="#">My Work</a>
-						<ul>
-							<li><a href="logo.html">Logo</a></li>
-							<li><a href="#">Packaging Design</a></li>
-							<li><a href="#">Posters</a></li>
-							<li><a href="#">Letterpress</a></li>
-							<li><a href="#">Postcards</a></li>
-						</ul>
-					</li>
+					<div class="dropdown">
+						<li><a href="#">My Work</a></li>
+						<div class="dropdown-content">
+							<a href="work/logo.html">Logo</a>
+							<a href="#">Packaging Design</a>
+							<a href="#">Posters</a>
+							<a href="#">Letterpress</a>
+							<a href="#">Postcards</a>
+						</div>
+					</div>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	
-	<section class="wrapper">
+	<section class="wrapper" id="thumbnail">
 		<div class="row">
-		<header>
-			<h2>Logos</h2>
-		</header>
-		<img src="img/icon-logo-hb.gif" alt="" class="hover" height="150px">
-		
-		<header>
-			<h2>Packaging Design</h2>
-		</header>
-		<img src="img/icon-packaging.png" alt="" class="hover" height="150px">
-		
-=		<header>
-			<h2>Posters</h2>
-		</header>
-		<img src="img/icon-poster.png" alt="" class="hover" height="150px">
+			<section>
+			<header>
+				<h2>Logos</h2>
+			</header>
+			<a href="work/logo.html"><img src="img/icon-logo-hb.gif" alt="" height="150px"></a>
+			</section>
 
-		<header>
-			<h2>Letterpress</h2>
-		</header>
-		<img src="img/icon-letterpress.jpg" alt="" class="hover" height="100px">
-		
-=		<header>
-			<h2>Postcard</h2>
-		</header>
-		<img src="img/icon-postcard.png" alt="" class="hover" height="100px">
+			<section>
+			<header>
+				<h2>Packaging Design</h2>
+			</header>
+			<a href="#"><img src="img/icon-packaging.png" alt="" height="150px"></a>
+			</section>
+
+			<section>
+			<header>
+				<h2>Posters</h2>
+			</header>
+			<a href="#"><img src="img/icon-poster.png" alt="" height="150px"></a>
+			</section>
+		</div>
+
+		<div class="row">
+			<section>
+			<header>
+				<h2>Letterpress</h2>
+			</header>
+			<a href="#"><img src="img/icon-letterpress.jpg" alt="" height="100px"></a>
+			</section>
+
+			<section>
+			<header>
+				<h2>Postcard</h2>
+			</header>
+			<a href="#"><img src="img/icon-postcard.png" alt="" height="100px"></a>
+			</section>
 		</div>
 		
 		
