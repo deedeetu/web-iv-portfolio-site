@@ -49,10 +49,20 @@ h2 {
 	text-align: center;
 }
 
+
+#thumbnail h3 {
+	font: 600 20px 'raleway', sans-serif;
+	text-transform: uppercase;
+}
+
 /*----------1.2 - Body Copy----------*/
 
 #about-me #float-l {
 	width: 700px;
+}
+
+#about-me #float-r {
+	width: 300px;
 }
 
 #about-me #float-r p {
@@ -71,19 +81,10 @@ h2 {
 	color: #000;
 }
 
-#thumbnail h3 {
-	font: 600 20px 'raleway', sans-serif;
-	text-transform: uppercase;
-}
 
 /*----------1.3 - Button----------*/
 
-#submit {
-	float: right;
-	margin-right: 290px;
-}
-
-#submit {
+#contact-me a {
 	text-transform: uppercase;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -94,9 +95,11 @@ h2 {
 	padding: 16px 30px;
 	background-color: rgba(197, 153, 90, .5);
 	color: #000;
+	float: right;
+	margin-right: 245px;
 }
 
-#submit:hover {
+#contact-me a:hover {
 	text-transform: uppercase;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -109,54 +112,45 @@ h2 {
 	color: #fff;
 }
 
-
-#social ul{
-	list-style: none;
-}
-
-#social ul span{
+#about-me ul span{
 	display: none;
 }
 
-#social ul {
-	height: 25px;
-}
-
-#social ul a, #social ul li{
+#about-me ul a, #about-me ul li{
 	display: inline-block;
 	margin-right: 10px;
 }
 
-#social ul li:last-child {
+#about-me ul li:last-child {
 	padding-right: 0;
 }
 
-#social ul li a{
+#about-me ul li a{
 	width: 25px;
 	height: 25px;
 }
 
-#social ul li:first-child a{
+#about-me ul li:first-child a{
 	background: url("../img/logo-linkedin.gif") no-repeat 0 0;
 }
 
-#social ul li:nth-child(2) a{
+#about-me ul li:nth-child(2) a{
 	background: url("../img/logo-insta.gif") no-repeat 0 0;
 }
 
-#social ul li:nth-child(3) a{
+#about-me ul li:nth-child(3) a{
 	background: url("../img/icon-twitter.gif") no-repeat 0 0;
 }
 
-#social ul li:nth-child(4) a{
+#about-me ul li:nth-child(4) a{
 	background: url("../img/icon-fb.gif") no-repeat 0 0;
 }
 
-#social ul li:last-child a{
+#about-me ul li:last-child a{
 	background: url("../img/icon-yt.gif") no-repeat 0 0;
 }
 
-#social ul li a:hover{
+#about-me ul li a:hover{
 	background-position: 0 -25px;
 }
 
@@ -279,7 +273,7 @@ nav a:hover {
 /*----------4.2 - Images----------*/
 
 body {
-	background: url(../img/bg-bottom1.png) bottom right no-repeat fixed, url(../img/bg-top.png) top center no-repeat fixed, url(../img/bg-main.jpg) center repeat fixed;
+	background: url(../img/bg-bottom.png) bottom right no-repeat fixed, url(../img/bg-top.png) top center no-repeat fixed, url(../img/bg-main.jpg) center repeat fixed;
 }
 #thumbnail img:hover {
     position:relative;
@@ -312,15 +306,23 @@ section {
 	margin-top: 290px;
 }
 
-#contact-me {
+#contact-me form {
 	padding-left: 300px;
 }
 
+#thumbnail #float-l {
+	width: 200px;
+	margin-left: 100px;
+}
+
 #thumbnail #float-r {
-	margin-top: -200px;
+	width: 200px;
+	margin-top: -435px;
+	margin-right: 100px;
 }
 
 #thumbnail #float-m {
+	width: 200px;
 	margin-top: 75px;
 	margin-left: 450px;
 }
